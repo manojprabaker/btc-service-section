@@ -1,0 +1,179 @@
+*{
+padding:0;
+ margin:0;
+ box-sizing:border-box;
+ 
+}
+body{
+	font-size:16px;
+}
+/* @font-face { */
+    /* font-family: Nexa-Bold; */
+    /* src:url("D:\fed\blockchain-website\features\assests\nexa-bold.otf") format("truetype"); */
+/* } */
+.feats-sec{
+	
+}
+.feats-container{
+	width:80%;
+	margin:auto;
+	
+}
+.feats-title {
+	margin-top:50px;
+	text-align:center;
+}
+.feats-title h2{
+	color:#444f60;
+	font-size:2.1rem;
+	font-weight:600;
+	font-family: 'Poppins', sans-serif;
+}
+.feats-title p{
+	font-weight: 300;
+    font-size:1rem;
+    color: #999;
+	margin-top:0.2rem;
+	font-family: 'Poppins', sans-serif;
+}
+.feats-row {
+	
+}
+.feats-col {
+	display:flex;
+	flex-direction:row;
+	margin-top:4rem;
+	
+}
+.feats-col1 {
+	display:flex;
+	flex-direction:row;
+	margin-top:4rem;
+}
+.feats-col-left{
+	width:50%;
+	margin-top:40px;
+	margin-left:50px;
+	
+}
+.feats-col-right{
+	width:50%;
+	margin-right:50px;
+}
+.feats-col-left1{
+	width:50%;
+}
+.feats-col-right1{
+	width:50%;
+	margin-left:150px;
+	
+}
+.col-img-area{
+	width:100%;
+}
+.col-img-area img {
+	width:100%;
+}
+.col-icon i{
+	color:#8c8cf9;
+	font-size:1.5rem;
+}
+
+.col-title {
+	color:#444f60;
+	font-size:1.5rem;
+	margin-top:0.4rem;
+}
+.col-title h3{
+	color:#444f60;
+	font-size:2rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight:500;
+}
+.col-product-details p {
+      color: #8e9baf;
+    font-family: 'Roboto', sans-serif;
+    font-size:1rem;
+	line-height:1.4;
+	word-spacing:2px;
+	letter-spacing:1px;
+	
+}
+.col-divider{
+	margin:0.7rem 0;
+  width:5rem;
+  height:0.3rem;
+  background-color:#8c8cf9;
+  border-radius:3.2rem;
+}
+.col-learn-more a{
+	line-height:1.5;
+    font-size:0.9rem;
+    font-weight:600;
+	color:#8c8cf9;
+	text-decoration:none;
+	padding:0.8rem;
+	border-radius:5px;
+	font-family: 'Roboto', sans-serif;
+}
+.col-learn-more {
+	margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.col-learn-more i{
+    font-size:0.7rem;
+    margin-left:0.5rem;
+    color:#8c8cf9;
+	transition:all 0.2s linear;
+}
+.col-learn-more a:hover {
+	background-color:#f7f7f9;	
+	
+	
+}
+.col-learn-more a:hover  i.fa-solid {
+	 transform: translate(5px,0px);
+	 
+}
+
+
+
+
+
+
+/* Media Queries-Features Section*/
+@media (max-width:768px) {
+	.feats-container{
+	width:90%;
+	margin:auto;
+
+}
+	.feats-col {
+		display:block;
+		margin-top:4rem;
+	}
+	.feats-col1 {
+		display:flex;
+		flex-direction:column;
+		margin-top:3rem;
+	}
+	.feats-col-left{
+	width:100%;
+	margin-top:0px;
+	margin-left:0px;
+	
+}
+.feats-col-right{
+	width:100%;
+}
+.feats-col-left1{
+	width:100%;
+	order:2;
+}
+.feats-col-right1{
+	width:100%;
+margin-left:0px;
+order:1;
+}
+}
